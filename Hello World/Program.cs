@@ -17,12 +17,16 @@ namespace Hello_World
              string input = Console.ReadLine();
              Console.WriteLine("Selamat datang kembali " + input + "!"); */
 
-            string nama,asal;
+            string nama,asal,umur;
             Console.WriteLine("Masukan Nama: ");
             nama = Console.ReadLine();
             Console.WriteLine("Masukan Asal: ");
             asal = Console.ReadLine();
-            Console.WriteLine("\nHallo {0} dari {1}! Selamat datang di C#!", nama,asal);
+            Console.WriteLine("Masukan Umur: ");
+            umur = Console.ReadLine();
+            Console.WriteLine("\nNama: {0}\nAsal: {1}\nUmur: {2}", nama,asal,umur);
+
+            //adding this
 
         }
     }
